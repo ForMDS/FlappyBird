@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FlappyBird</title>
+</head>
+<body>
+  <div id="fly"></div>
+  <script src="./js/fly.js"></script>
+  <script src="./js/bird.js"></script>
+  <script src="./js/sky.js"></script>
+  <script src="./js/land.js"></script>
+  <script src="./js/pipe.js"></script>
+  <script src="./js/game.js"></script>
+  
+  <script>
+    var g = Fly.factory('Game','fly');
+    g.startGame();
+  </script>
+</body>
+</html>
